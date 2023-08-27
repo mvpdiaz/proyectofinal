@@ -23,6 +23,8 @@ const Registro = () => (
         <Field id="firstName" name="firstName" placeholder="Nombre" /><br/>
         <label htmlFor="lastName">APELLIDO</label><br/>
         <Field id="lastName" name="lastName" placeholder="Apellido" /><br/>
+        <label htmlFor="contraseña">CONTRASEÑA</label><br/>
+        <Field id="contraseña" name="contraseña" placeholder="Contraseña" type="number" maxlength="8" /><br/>
         <label htmlFor="email">Email</label><br/>
         <Field
           id="email"

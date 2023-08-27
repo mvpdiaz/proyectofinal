@@ -3,10 +3,12 @@ import React from "react";
 import TodoForm from "./todo-form";
 import data from "./data.json";
 import Todo from "./todo";
+import Link from "next/link";
 
 
 
 export default function ListaDeTareas(){
+
   const [todos, setTodos] = useState(data);
 
   const onMarkComplete = (id) => {
@@ -35,6 +37,7 @@ export default function ListaDeTareas(){
     setTodos([...todos].filter((item) => item.id !== id));
   };
   return (
+    <>
     <div className="container">
       <TodoForm addTodo={addTodo} />
       <Todo
@@ -43,5 +46,8 @@ export default function ListaDeTareas(){
         onDeleteItem={onDeleteItem}
       />
     </div>
+   
+    </>
   );
+  
 };
