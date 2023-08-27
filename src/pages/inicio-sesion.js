@@ -21,6 +21,9 @@ export default function Inicio_sesion() {
             <div>
                 <Link href="/registro">Registrate</Link>
             </div>
+            <div>
+                <Link href="/lista-tarea">Lista tarea</Link>
+            </div>
         </>
     )
 

@@ -12,6 +12,9 @@ export default function Home() {
       <li>
         <Link href="/registro">REGISTRATE </Link>
       </li>
+      <li>
+        <Link href="/lista-tarea">TAREAS </Link>
+      </li>
     </ul>
   </div>
   )}
