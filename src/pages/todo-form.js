@@ -6,7 +6,7 @@ export default function TodoForm({ addTodo }) {
   const handleChange = (e) => {
     setUserInput(e.currentTarget.value);
   };
-
+//agrega input item a la lista
   const handleSubmit = (e) => {
     e.preventDefault();
     if (userInput.trim() !== "") {
@@ -19,7 +19,7 @@ export default function TodoForm({ addTodo }) {
     <div style={{ margin: 5 }}>
       <form onSubmit={handleSubmit}>
         <input type="text" value={userInput} onChange={handleChange} />
-        <button>Add todo</button>
+        <button>Agregar item</button>
       </form>
     </div>
   );

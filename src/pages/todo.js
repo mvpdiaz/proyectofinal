@@ -1,16 +1,7 @@
-import TodoItem from "./todo-item";
 import React from "react";
-
-
-export default function Todo({ todos, onMarkComplete, onDeleteItem }) {
-  // const onMarkComplete = (todo) => {
-  //     console.log(todo);
-  // }
-
-  // arr.reduce((acc, curr) => {
-  //     !acc[curr[userId]] ? acc[curr[userId]] = [curr] : acc[curr[userId]].push(curr);
-  //     return acc;
-  // }, {})
+import TodoItem from "./todo-item";
+//
+export default function Todo({ todos, onMarkComplete, onDeleteItem, onEditTask}) {
 
   return (
     <div className="items">
@@ -20,7 +11,10 @@ export default function Todo({ todos, onMarkComplete, onDeleteItem }) {
           todo={item}
           onMarkComplete={onMarkComplete}
           onDeleteItem={onDeleteItem}
+          onEditTask={onEditTask}
+         
         />
+    
       ))}
     </div>
   );
