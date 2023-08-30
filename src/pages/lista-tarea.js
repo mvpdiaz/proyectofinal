@@ -3,7 +3,14 @@ import React from "react";
 import TodoForm from "./todo-form";
 import data from "./data.json";
 import Todo from "./todo";
+import 'C:/Users/Lenovo/Desktop/Proyecto-Final-git/react_next_proyecto/styles/lista-tareas.css';
+import 'spectre.css/dist/spectre.min.css';
+
+
+   
+
 //invoco mis funciones
+
 export default function ListaDeTareas(){  const [todos, setTodos] = useState(data);
 
   const onMarkComplete = (id) => {setTodos(
@@ -14,6 +21,8 @@ export default function ListaDeTareas(){  const [todos, setTodos] = useState(dat
       })
     );
   };
+ 
+
   //constante para el boton de agregar item
   let addTodo = (newTodo) => {
     console.log("newTodo", newTodo);

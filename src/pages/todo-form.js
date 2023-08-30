@@ -20,6 +20,7 @@ export default function TodoForm({ addTodo }) {
       <form onSubmit={handleSubmit}>
         <input type="text" value={userInput} onChange={handleChange} />
         <button>Agregar item</button>
+      
       </form>
     </div>
   );

@@ -52,9 +52,9 @@ const TodoItem = ({ todo, onMarkComplete, onDeleteItem,onEditTask }) => {
         X
       </button>
       {isEditing ? (
-        <button onClick={handleSaveClick}>Guardar</button>
+        <button class="btn-grd" onClick={handleSaveClick}>Guardar</button>
       ) : (
-        <button onClick={handleEditClick}>Editar tarea</button>
+        <button class="btn-edt"onClick={handleEditClick}>Editar tarea</button>
       )}
     </div>
   );

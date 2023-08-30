@@ -1,0 +1,23 @@
+body {
+    background-image: url('../images/halftone_background_12.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  
+#h1 {
+    font-variant: petite-caps;
+    color: #1075f0;
+    font-style: italic;
+  }
+
+.form-label {
+    color: #1075f0;
+    font-style: italic;
+}
+#h11 {
+    font-variant: petite-caps;
+    color: #d210f0;
+    font-style: italic;
+  } 

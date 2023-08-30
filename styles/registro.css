@@ -1,0 +1,38 @@
+* {
+    text-align: center;
+  }
+.h1 {
+    font-variant: petite-caps;
+    color: #1075f0;
+    font-style: italic;
+}
+#firstName {
+    color: #1075f0;
+    font-style: italic;
+}
+#lastName{
+    color: #1075f0;
+    font-style: italic; 
+}
+#contraseña{
+    color: #1075f0;
+    font-style: italic; 
+}
+#email{
+    color: #1075f0;
+    font-style: italic; 
+}
+.btn{
+    margin-top: 20px; 
+}
+
+button {
+    width: 10%;
+    margin-left: 15%;
+    background-color: rgb(96, 160, 219);
+    border-radius: 10px;
+}
+.form{
+    place-items: center;
+    margin: 50px;
+}
