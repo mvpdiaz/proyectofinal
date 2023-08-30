@@ -1,20 +1,10 @@
-import React from 'react';
-import Link from 'next/link';
+import Inicio_sesion from '@/pages/inicio-sesion'
 
-export default function Home() {
-  return (
-  <div className="page">
-    <h1>BIENVENIDO</h1>  
-    <ul>
-      <li>
-        <Link href="/inicio-sesion">INICIAR SESIÓN</Link>
-      </li>
-      <li>
-        <Link href="/registro">REGISTRATE </Link>
-      </li>
-      <li>
-        <Link href="/lista-tarea">TAREAS </Link>
-      </li>
-    </ul>
-  </div>
-  )}
+export default function Lay(){
+    return(
+        <>
+        <h1>Bienvenido a nuestra Web</h1>
+        <Inicio_sesion/> 
+        </>
+    )
+}

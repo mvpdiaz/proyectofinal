@@ -6,7 +6,7 @@ export default function TodoForm({ addTodo }) {
   const handleChange = (e) => {
     setUserInput(e.currentTarget.value);
   };
-//agrega input item a la lista
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (userInput.trim() !== "") {

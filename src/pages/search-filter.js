@@ -1,6 +1,6 @@
-// SearchFilter.js
+// barra de búsqueda
 import React, { useState } from "react";
-
+//agregar filtro por tarea completada
 const SearchFilter = ({ onSearch }) => {
   const [searchQuery, setSearchQuery] = useState("");
 

@@ -1,8 +1,9 @@
 import React,{useState} from "react";
-import {newTodo} from "./lista-tarea";
+import {addTodo} from "./lista-tarea";
 
+//
 
-const TodoItem = ({ todo, onMarkComplete, onDeleteItem,onEditTask }) => {
+const TodoItem = ({ todo, onMarkComplete, onDeleteItem, addTodo,onEditTask }) => {
   const [isEditing, setIsEditing] = useState(false); // Estado para controlar el modo de edición
   const [editingTask, setEditingTask] = useState(todo.task); // Estado para el contenido editado
 //contenido completado
@@ -28,8 +29,7 @@ const TodoItem = ({ todo, onMarkComplete, onDeleteItem,onEditTask }) => {
     onEditTask(todo.id,editingTask);
     
      // Agregar la tarea editada
-    //setEditingTask(""); // Limpiar el campo de edición
-    // Llamar a la función para editar la tarea aquí, pasando el nuevo contenido
+    
   };
 
   return (
@@ -38,7 +38,7 @@ const TodoItem = ({ todo, onMarkComplete, onDeleteItem,onEditTask }) => {
         type="checkbox"
         checked={todo.completed}
         onChange={() => onMarkComplete(todo.id)}
-      />{" "}
+      /> {" "}
       {isEditing ? (
         <input
           type="text"
