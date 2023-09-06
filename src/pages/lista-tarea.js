@@ -3,7 +3,7 @@ import React from "react";
 import TodoForm from "./todo-form";
 import data from "./data.json";
 import Todo from "./todo";
-import 'C:/Users/Lenovo/Desktop/Proyecto-Final-git/react_next_proyecto/styles/lista-tareas.css';
+import '../../styles/lista-tareas.css';
 import 'spectre.css/dist/spectre.min.css';
 
 

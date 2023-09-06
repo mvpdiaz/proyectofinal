@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import 'C:/Users/Lenovo/Desktop/Proyecto-Final-git/react_next_proyecto/styles/inicio-sesion.css';
+import '../../styles/inicio-sesion.css';
 import 'spectre.css/dist/spectre.min.css';
 
 

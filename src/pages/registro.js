@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Formik, Field, Form } from 'formik';
 import Link from 'next/link';
-import 'C:/Users/Lenovo/Desktop/Proyecto-Final-git/react_next_proyecto/styles/registro.css'
+import '../../styles/registro.css';
 import 'spectre.css/dist/spectre.min.css';
 
 

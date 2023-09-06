@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import 'C:/Users/Lenovo/Desktop/Proyecto-Final-git/react_next_proyecto/src/app/globals.css';
+import '../app/globals.css';
 import 'spectre.css/dist/spectre.min.css';
 
 
